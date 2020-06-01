@@ -17,10 +17,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     HelloVtk.cpp
 
-INCLUDEPATH += ../VTK82/Mac/Debug/include/vtk-8.2
+INCLUDEPATH += ../../VTK82/Mac/Debug/include/vtk-8.2
 
-CONFIG(debug, debug|release):THP_LIB_PATH = ../../VTK82/Mac/Debug/lib
-else:CONFIG(release, debug|release):THP_LIB_PATH = ../../VTK82/Mac/Debug/lib
+CONFIG(debug, debug|release):THP_LIB_PATH = ../../../VTK82/Mac/Debug/lib
+else:CONFIG(release, debug|release):THP_LIB_PATH = ../../../VTK82/Mac/Debug/lib
 LIBS += -L$$THP_LIB_PATH \
 -lvtkCommonCore-8.2 \
 -lvtkFiltersSources-8.2 \
