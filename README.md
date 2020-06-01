@@ -1,2 +1,2 @@
 # VTK
-Simple VTK examples for self learning
+Simple Visualization Toolkit(VTK) examples for self learning
