@@ -4,15 +4,15 @@
     Example program demonstrate simple VTK polygon rendering using the pipeline
     such as Source, Mapper, Renderer,  Render Window and Interactor.
 
-    Make sure VTK 8.2 built successfully with OpenGL2. Setthe Lib and Include paths.
+    Make sure VTK 9.0 built successfully . Set the Lib and Include paths.
 
     Following VTK libraries required:
-        vtkCommonCore-8.2
-        vtkFiltersSources-8.2
-        vtkInteractionStyle-8.2
-        vtkRenderingCore-8.2
-        vtkRenderingOpenGL2-8.2
-        vtkCommonExecutionModel-8.2
+        vtkCommonCore-9.0
+        vtkFiltersSources-9.0
+        vtkInteractionStyle-9.0
+        vtkRenderingCore-9.0
+        vtkRenderingOpenGL2-9.0
+        vtkCommonExecutionModel-9.0
 
     This program is a personal work and distributed for  knowledge share. No
     warranty or support is indented.
