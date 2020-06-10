@@ -48,6 +48,7 @@ void HelloVtk::RenderCube()
             vtkSmartPointer<vtkGenericOpenGLRenderWindow>::New();
     renderWindow->AddRenderer(renderer);
 
+    //Set render window to Qt Windget for the final rendering.
     ui->VtkQtWidget->setRenderWindow(renderWindow);
 
     //To do: Clean-up on need basis.
